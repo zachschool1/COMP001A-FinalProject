@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(59, 93, 126);
+    background-color: rgb(103, 128, 150);
 }
 
 
 #pricing-card {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
