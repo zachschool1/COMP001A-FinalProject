@@ -1,7 +1,49 @@
 body{
-    background-color: rgb(103, 128, 150);
+    background-color: #20383F;
+    /* secondary color #18053F */
+}
+main{
+    display: flex;
+    text-align: center;
+    color:#18053F;
+}
+footer {
+    color: grey;
 }
 
+.photosection, .home-testimonial{
+    margin-top: 2%;
+    height:20vh;
+    width: 80vw;
+    background-color:#18053F;
+    border-radius: 25px 25px 0 0;
+    border: grey 2px solid;
+}
+
+.home-testimonial{
+    display:flex;
+    grid-row: 4;
+    grid-column:1;
+    height:10vw;
+    border-radius: 0;
+    height:25vh;
+    justify-content: space-around;
+    align-items:center;
+}
+.testbox {
+    height: 175px;
+    width:175px;
+    border: white 2px solid;
+    border-radius: 5px;
+}
+
+footer p{ 
+    color: #18053F;
+}
+
+footer ul li a{
+    color: hwb(260 2% 75%);
+}
 
 #pricing-card {
     display:flex;
