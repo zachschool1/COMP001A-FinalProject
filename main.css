@@ -1,11 +1,18 @@
+:root {
+    --main-bg-color: #5073e9;
+    --bs-primary: #5074e9a9;
+    --bs-secondary: #18053f6c;
+    --main-text-color: rgb(43, 43, 43);
+    --secondary-text-color:rgb(97, 97, 97);
+}
+
 body{
-    background-color: #20383F;
-    /* secondary color #18053F */
+    background-color: var(--main-bg-color);
 }
 main{
     display: flex;
     text-align: center;
-    color:#18053F;
+    color:var(--bs-secondary);
 }
 footer {
     color: grey;
@@ -13,9 +20,9 @@ footer {
 
 .photosection, .home-testimonial{
     margin-top: 2%;
-    height:20vh;
+    min-height:20vh;
     width: 80vw;
-    background-color:#18053F;
+    background-color:var(--bs-secondary);
     border-radius: 25px 25px 0 0;
     border: grey 2px solid;
 }
@@ -26,23 +33,33 @@ footer {
     grid-column:1;
     height:10vw;
     border-radius: 0;
-    height:25vh;
+    height: auto;
     justify-content: space-around;
     align-items:center;
 }
 .testbox {
-    height: 175px;
-    width:175px;
+    height: auto;
+    min-width:200px;
     border: white 2px solid;
     border-radius: 5px;
 }
 
 footer p{ 
-    color: #18053F;
+    color: var(--main-text-color);
 }
 
 footer ul li a{
-    color: hwb(260 2% 75%);
+    color: var(--secondary-text-color);
+}
+
+.card img{
+    height: 150px;
+    object-fit: cover;
+    overflow-x:hidden;
+}
+.card-body {
+    background-color: var(--bs-primary);
+    color:var(--bs-secondary);
 }
 
 #pricing-card {
