@@ -18,16 +18,15 @@ footer {
     color: grey;
 }
 
-.photosection, .home-testimonial{
+padding.introduction, .home-examples{
     margin-top: 2%;
     min-height:20vh;
     width: 80vw;
-    background-color:var(--bs-secondary);
-    border-radius: 25px 25px 0 0;
-    border: grey 2px solid;
+
 }
 
-.home-testimonial{
+.home-examples{
+    margin:0;
     display:flex;
     grid-row: 4;
     grid-column:1;
@@ -65,4 +64,27 @@ footer ul li a{
 #pricing-card {
     display:flex;
     justify-content: space-evenly;
+}
+
+#login {
+    display:flex;
+    flex-direction: column;
+    height:auto;
+    width:60vw;
+    margin:auto;
+    margin-top:10%;
+    padding: 5% 5% 15% 5%;
+    border: var(--bs-secondary) 5px ridge;
+    border-radius: 25px;
+}
+#log-register a:hover{
+    color: black;
+}
+
+#log-register a:visited, a:link{
+    color:darkgray;
+}
+
+#log-register a:active {
+    color:black;
 }
