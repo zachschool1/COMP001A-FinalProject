@@ -56,7 +56,9 @@ footer ul li a{
     object-fit: cover;
     overflow-x:hidden;
 }
-.card-body {
+
+
+.card-body,.card-header {
     background-color: var(--bs-primary);
     color:var(--bs-secondary);
 }
@@ -67,7 +69,7 @@ footer ul li a{
 }
 
 #login {
-    display:flex;
+    display:flexbox;
     flex-direction: column;
     height:auto;
     width:60vw;
@@ -80,7 +82,40 @@ footer ul li a{
 #log-register a:hover{
     color: black;
 }
+#contact-section,#plan-build{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
 
+#contact-me{
+    display:flex;
+    flex-direction: column;
+    max-width:50%;
+    align-self:center;
+    
+}
+#features ul li{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+#free ul,#pro ul, #master ul{
+    margin:0;
+    padding:0;
+    margin-bottom: 4%;
+}
+#plan-builder{
+    display:flex;
+    flex-direction: column;
+    max-width:50%;
+
+}
+#check-out{
+    justify-self:center;
+}
 #log-register a:visited, a:link{
     color:darkgray;
 }

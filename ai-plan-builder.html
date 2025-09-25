@@ -36,11 +36,32 @@
         </nav>
     </header>
 
-        <main>
+    <main>
+        <div class="container">
+        <h1> Coming Soon! </h1>
+        <p> soon, there will be a way to talk to your very own AI assistant and they can help you create your own recipes!</p>
+
+        <p>For now, Write stuff here and pretend someone responds!</p>
+        <div class="container" id="plan-builder">
+
             
-        </main>
+        <form action="submit" method="post" >
+
+            <label for="input">Diet Type:</label>
+            <textarea name="subject" id="subject" cols="50" rows="2" placeholder="Subject"></textarea>
+            <br>
+            <label for="message">Ingredients:</label>
+            <textarea name="message" id="message" cols="50" rows="4" placeholder="Send a message!"></textarea>
+            <br>
+            <button class="btn btn-primary" type="submit">Create your meal!</button>
+            <button class="btn btn-secondary"type="reset">Reset </button>
+        </form>
+        </div>
+    </div>
+    </main>
         
     <footer class="pt-4 my-md-5 pt-md-5 border-top container">
+        <!-- all 10 HTML pages can be reached from the footer -->
         <div class="row container-fluid ">
         <div class="col-12 col-md">
             <img class="mb-2" src="/images/logo.png" alt="Company Logo" width="150" height="150">
@@ -49,25 +70,28 @@
         <div class="col-6 col-md">
             <h5>Features</h5>
             <ul class="list-unstyled text-small">
-                <li><a href="#">Recipe Planner</a></li>
-                <li><a href="#">AI Plan Builder</a></li>
+                <li><a href="/testimonials.html">Testimonials</a></li>
+                <li><a href="/ai-plan-builder.html">AI Plan Builder</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/plans.html">Diet Plan Information</a></li>
             </ul>
         </div>
         <div class="col-6 col-md">
             <h5>Plans</h5>
             <ul class="list-unstyled text-small">
-            <li><a href="#">Free Tier</a></li>
-            <li><a href="#">Ad Free Tier</a></li>
-            <li><a href="#">Pro Tier</a></li>
+            <li><a href="features.html#free">Free Tier Info</a></li>
+            <li><a href="features.html#pro">Pro Tier Info</a></li>
+            <li><a href="features.html#master">Master Tier Info</a></li>
             </ul>
         </div>
         <div class="col-6 col-md">
-            <h5>About</h5>
+            <h5>Links to other pages</h5>
             <ul class="list-unstyled text-small">
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Careers</a></li>
+            <li><a href="/login.html">Login</a></li>
+            <li><a href="/register.html">Register</a></li>
+            <li><a href="/checkout.html">Check out</a></li>
+            <li><a href="/upgrade.html">Tier upgrade</a></li>
+            <li><a href="/contact-me.html">Contact Us</a></li>
             </ul>
         </div>
         </div>
