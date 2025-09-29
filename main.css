@@ -47,7 +47,7 @@ footer p{
     color: var(--main-text-color);
 }
 
-footer ul li a{
+a{
     color: var(--secondary-text-color);
 }
 
@@ -69,7 +69,7 @@ footer ul li a{
 }
 
 #login {
-    display:flexbox;
+    display:flex;
     flex-direction: column;
     height:auto;
     width:60vw;
@@ -79,7 +79,7 @@ footer ul li a{
     border: var(--bs-secondary) 5px ridge;
     border-radius: 25px;
 }
-#log-register a:hover{
+a:hover{
     color: black;
 }
 #contact-section,#plan-build{
@@ -88,6 +88,11 @@ footer ul li a{
     flex-direction: column;
     
 }
+#testimonial-main {
+    align-self:center;
+    display:flex;
+}
+
 
 #contact-me{
     display:flex;
@@ -116,10 +121,10 @@ footer ul li a{
 #check-out{
     justify-self:center;
 }
-#log-register a:visited, a:link{
+a:visited, a:link{
     color:darkgray;
 }
 
-#log-register a:active {
+a:active {
     color:black;
 }
